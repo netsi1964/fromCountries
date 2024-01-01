@@ -1,0 +1,68 @@
+html, body, svg {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+font-weight: normal;
+}
+
+.current {
+	fill: orange;
+}
+dialog {
+	border-radius: 10px;
+	padding: 0 4px 0 4px;
+	max-height: 75vh;
+	border-width: 0;
+	box-shadow: 0 0 10px 10px #00000044;
+	
+	& img {
+		max-height: 50vh;
+	}
+}
+figcaption {
+	font-size: 22pt;
+}
+
+#info {
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+	width: 100%;
+	text-align: center;
+}
+
+textarea {
+	width: 90%;
+	margin: 0 5px;
+}
+
+button {
+	margin: 0 0 16px 3em;
+}
+
+#viewed {
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+	cursor: pointer;
+}
+
+h1 {
+	position: fixed;
+	top: 0px;
+	left: 25%;
+	pointer-events: none;
+}
+
+.outline {
+	stroke: #00000077;
+	stroke-width: 2px;
+}
+#viewedPath {
+	fill: none;
+	stroke-width: 8px;
+	stroke: #0000ff55;
+}
